@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (max-width:1240px) {
+    .paragraph{
+        width: 200px;
+    }
+    .btn-sed,.btn-lux{
+        margin-top: 100px;
+    }
+    
+}
+@media screen and (max-width:1110px) {
+    .paragraph{
+        width: 150px;
+    }
+    .btn-suv{
+        margin-top: 100px;
+    }
+    .btn-sed{
+        margin-top: 120px;
+    }
+}
+@media screen and (max-width:860px) {
+    .paragraph{
+        width: 125px;
+    }
+}
+@media  screen and (max-width:750px) {
+    .container{
+        display: block;
+        margin-left: 30px;
+    }
+    .suvs,.sedans,.luxury{
+        width: 300px;
+    }
+    .paragraph{
+        width: 220px;
+    }
+    .sedans{
+        height: 480px;
+    }
+    
+}
